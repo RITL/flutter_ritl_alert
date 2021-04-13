@@ -1,0 +1,2 @@
+# flutter_ritl_alert
+flutter项目使用到的与青岛地铁APP中的alertController
