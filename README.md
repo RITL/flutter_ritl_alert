@@ -1,6 +1,6 @@
 # flutter_ritl_alert
 
-A new Flutter package project.
+flutter项目使用到的与青岛地铁APP中的alertController
 
 ## Getting Started
 
