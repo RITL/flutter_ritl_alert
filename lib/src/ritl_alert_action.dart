@@ -47,9 +47,6 @@ class RITLAlertAction extends StatelessWidget {
   /// 点击的回调
   final Function(RITLAlert, RITLAlertAction)? onPressed;
 
-  /// 自己点击进行的回调,不需要自己设置
-  // final Function(RITLAlertAction)? actionOnPressed;
-
   /// 构建方法
   const RITLAlertAction(
       {required this.title,
