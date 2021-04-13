@@ -127,8 +127,7 @@ class RITLAlert {
               height: 46,
               decoration: BoxDecoration(
                 border: Border(
-                  top: BorderSide(
-                      width: 1, color: Color.fromRGBO(247, 247, 247, 1)),
+                  top: BorderSide(width: 1, color: style.separateColor),
                 ),
               ),
               child: RITLAlertAction(
@@ -155,13 +154,13 @@ class RITLAlert {
                     border: Border(
                         top: BorderSide(
                           width: 1,
-                          color: Color.fromRGBO(247, 247, 247, 1),
+                          color: style.separateColor,
                         ),
                         left: buttons.indexOf(button) == 0
                             ? BorderSide.none
                             : BorderSide(
                                 width: 1,
-                                color: Color.fromRGBO(247, 247, 247, 1),
+                                color: style.separateColor,
                               ))),
                 height: 46,
                 child: button,

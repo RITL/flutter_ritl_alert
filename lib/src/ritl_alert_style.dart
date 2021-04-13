@@ -5,6 +5,9 @@ class RITLAlertStyle {
   /// 背景色
   final Color backgroundColor;
 
+  /// 底部按钮的分割颜色
+  final Color separateColor;
+
   /// 总体的圆角
   final BorderRadius? borderRadius;
 
@@ -24,6 +27,7 @@ class RITLAlertStyle {
 
   /// Alert style constructor function
   /// The [backgroundColor] parameter sets the background color.
+  /// The [separateColor] parameter sets the button's separate color.
   /// The [borderRadius] parameter sets alert's borderRadius. default is 8
   /// The [titleStyle] parameter sets alert title text style.
   /// The [titleTextAlign] parameter sets alignment of the title.
@@ -34,6 +38,7 @@ class RITLAlertStyle {
   /// The [alertAlignment] parameter sets alert area alignment.
   const RITLAlertStyle({
     this.backgroundColor = CupertinoColors.white,
+    this.separateColor = const Color.fromRGBO(247, 247, 247, 1),
     this.borderRadius = const BorderRadius.all(Radius.circular(8)),
     this.titleStyle = const TextStyle(
       fontSize: 16,

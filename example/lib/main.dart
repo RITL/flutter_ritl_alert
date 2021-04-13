@@ -51,6 +51,12 @@ class _MyHomePageState extends State<MyHomePage> {
                 _alertWithCustom();
               },
             ),
+            CupertinoButton(
+              child: Text("RITLAlert(UI)"),
+              onPressed: () {
+                _alertWithUI();
+              },
+            ),
           ],
         ),
       ),
@@ -113,5 +119,32 @@ class _MyHomePageState extends State<MyHomePage> {
             onPressed: (alert, action) => print("我点击啦取消吧"),
           ),
         ]).show();
+  }
+
+  //设置UI
+  _alertWithUI() {
+    RITLAlert(
+      context: context,
+      title: "我是RITLAlert",
+      message: "开启一下GPS定位吧。",
+      buttons: [
+        RITLAlertAction(
+          title: "知道啦",
+          type: RITLAlertActionType.normal,
+          onPressed: (alert, action) => print("我点击啦知道啦"),
+        ),
+        RITLAlertAction(
+          title: "取消吧",
+          type: RITLAlertActionType.destructive,
+          onPressed: (alert, action) => print("我点击啦取消吧"),
+        ),
+      ],
+      style: RITLAlertStyle(
+        backgroundColor: CupertinoColors.black,
+        separateColor: CupertinoColors.white,
+        titleStyle: TextStyle(color: CupertinoColors.white),
+        messageStyle: TextStyle(color: CupertinoColors.white),
+      ),
+    ).show();
   }
 }
