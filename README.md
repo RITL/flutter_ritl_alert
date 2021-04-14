@@ -2,6 +2,8 @@
 
 青岛地铁APP中使用的AlertController flutter版本
 
+[![Version](https://img.shields.io/badge/version-0.0.1-green.svg)](https://pub.dev/packages/flutter_ritl_alert)
+
 ## 无按钮
 ```dart
 RITLAlert(
