@@ -4,6 +4,24 @@
 
 [![Version](https://img.shields.io/badge/version-0.0.1-green.svg)](https://pub.dev/packages/flutter_ritl_alert)
 
+## 引用
+
+```yaml
+dependencies:
+ flutter_ritl_alert: ^0.0.1
+```
+
+or
+
+```yaml
+dependencies:
+ flutter_ritl_alert:
+   git: git@github.com:RITL/flutter_ritl_alert.git
+```
+
+
+then run `flutter packages get`
+
 ## 无按钮
 ```dart
 RITLAlert(
