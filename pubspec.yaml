@@ -1,6 +1,6 @@
 name: flutter_ritl_alert
-description: A new Flutter package project.
-version: 0.0.1
+description: A simple iOS style AlertController.
+version: 0.0.2
 homepage: https://github.com/RITL/flutter_ritl_alert
 
 environment:
