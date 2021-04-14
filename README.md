@@ -54,6 +54,7 @@ RITLAlert(
 ```
 <img width="320" src="https://github.com/RITL/flutter_ritl_alert/blob/master/example/previews/default.png"></img>
 
+
 ## 自定义方式
 ```dart
 RITLAlert(
