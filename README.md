@@ -2,7 +2,7 @@
 
 青岛地铁APP中使用的AlertController flutter版本
 
-[![Version](https://img.shields.io/badge/version-0.0.1-green.svg)](https://pub.dev/packages/flutter_ritl_alert)
+[![Version](https://img.shields.io/badge/version-0.0.2-green.svg)](https://pub.dev/packages/flutter_ritl_alert)
  
 ## 引用
 
