@@ -30,7 +30,8 @@ RITLAlert(
   message: "开启一下GPS定位吧。",
 ).show();
 ```
-<img width="320" src="https://github.com/RITL/flutter_ritl_alert/blob/master/example/previews/none.png"></img>
+<img width="320" src="https://raw.githubusercontent.com/wiki/RITL/flutter_ritl_alert/none.png"></img>
+
 
 ## 默认方式
 ```dart
@@ -52,7 +53,7 @@ RITLAlert(
   ],
 ).show();
 ```
-<img width="320" src="https://github.com/RITL/flutter_ritl_alert/blob/master/example/previews/default.png"></img>
+<img width="320" src="https://raw.githubusercontent.com/wiki/RITL/flutter_ritl_alert/default.png"></img>
 
 
 ## 自定义方式
@@ -84,8 +85,8 @@ RITLAlert(
     ]).show();
 ```
 
-<img width="320" src="https://github.com/RITL/flutter_ritl_alert/blob/master/example/previews/custom2.png"></img>
-<img width="320" src="https://github.com/RITL/flutter_ritl_alert/blob/master/example/previews/custom1.png"></img>
+<img width="320" src="https://raw.githubusercontent.com/wiki/RITL/flutter_ritl_alert/custom2.png"></img>
+<img width="320" src="https://raw.githubusercontent.com/wiki/RITL/flutter_ritl_alert/custom1.png"></img>
 
 ## 自定义Style
 ```dart
@@ -113,4 +114,4 @@ RITLAlert(
   ),
 ).show();
 ```
-<img width="320" src="https://github.com/RITL/flutter_ritl_alert/blob/master/example/previews/custom_UI.png"></img>
+<img width="320" src="https://raw.githubusercontent.com/wiki/RITL/flutter_ritl_alert/custom_UI.png"></img>
