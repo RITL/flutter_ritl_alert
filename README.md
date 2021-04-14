@@ -8,7 +8,7 @@
 
 ```yaml
 dependencies:
- flutter_ritl_alert: ^0.0.1
+ flutter_ritl_alert: ^0.0.2
 ```
 
 or
